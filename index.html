@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="stylesheet" href="style.css" />
+      <title>Encrypt</title>
+   </head>
+   <body>
+      <h1>Cäsar-Chiffre</h1>
+      Eingabe: <input type="text" id="eingabe" />
+      <br />
+      Verschiebung: <label id="label">1</label>
+      <div id="schieber">1<input type="range" id="slider" min="1" max="25" />25</div>
+      <button onclick="encrypt()">Encrypt</button>
+      <br />
+      Ausgabe: <input type="text" id="ausgabe" />
+      <script src="app.js"></script>
+   </body>
+</html>
